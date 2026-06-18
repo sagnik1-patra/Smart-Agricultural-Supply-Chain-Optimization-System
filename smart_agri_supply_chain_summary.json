@@ -1,0 +1,63 @@
+{
+    "project_name": "Smart Agricultural Supply Chain Optimization System",
+    "author": "Sagnik Patra",
+    "dataset_shape": [
+        62,
+        21
+    ],
+    "total_markets": 62,
+    "market_column": "Market_Name",
+    "district_column": "District_Name",
+    "best_model": "Random Forest",
+    "model_results": [
+        {
+            "Model": "Random Forest",
+            "MAE": 1733.0381689823148,
+            "RMSE": 2145.9315749465595,
+            "R2_Score": 0.57071666943456,
+            "Accuracy_Percentage": 57.071666943456
+        },
+        {
+            "Model": "Gradient Boosting",
+            "MAE": 2115.7372417530687,
+            "RMSE": 3050.4410532974553,
+            "R2_Score": 0.13256376638565426,
+            "Accuracy_Percentage": 13.256376638565426
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 3259.612686023487,
+            "RMSE": 4207.37398458638,
+            "R2_Score": -0.6501921596155507,
+            "Accuracy_Percentage": 0.0
+        },
+        {
+            "Model": "Neural Network",
+            "MAE": 2613.969648521118,
+            "RMSE": 3437.4698322827435,
+            "R2_Score": -0.10151413798919107,
+            "Accuracy_Percentage": 0.0
+        }
+    ],
+    "files_saved": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_model_results.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_prediction_results.csv",
+        "processed_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_processed_dataset.csv",
+        "cluster_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_cluster_results.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_accuracy_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_comparison_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_prediction_graph.png",
+        "actual_vs_predicted_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_actual_vs_predicted_graph.png",
+        "nn_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_nn_loss_graph.png",
+        "cluster_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_cluster_graph.png",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_neural_network_model.h5",
+        "random_forest_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_random_forest_model.pkl",
+        "gradient_boosting_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_gradient_boosting_model.pkl",
+        "decision_tree_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_decision_tree_model.pkl",
+        "scaler_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_scaler.pkl",
+        "encoder_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_label_encoders.pkl",
+        "kmeans_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\smart_agri_supply_chain_kmeans_model.pkl"
+    }
+}

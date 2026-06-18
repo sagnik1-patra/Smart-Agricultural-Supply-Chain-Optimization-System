@@ -1,0 +1,65 @@
+{
+    "project_name": "AIS Smart Agricultural Supply Chain Optimization System",
+    "author": "Sagnik Patra",
+    "algorithm": "Artificial Immune System",
+    "dataset_shape": [
+        62,
+        21
+    ],
+    "total_markets": 62,
+    "market_column": "Market_Name",
+    "district_column": "District_Name",
+    "best_model": "AIS Random Forest",
+    "selected_features": [
+        "Market_Name_Encoded",
+        "Latitude",
+        "Demand_Tons",
+        "Transport_Cost_Per_KM",
+        "Seasonal_Risk_Index",
+        "Demand_Supply_Gap"
+    ],
+    "best_fitness": 1787.8125252809507,
+    "model_results": [
+        {
+            "Model": "AIS Random Forest",
+            "MAE": 1473.2539164902942,
+            "RMSE": 1817.0119176053265,
+            "R2_Score": 0.6922289001810908,
+            "Accuracy_Percentage": 69.22289001810908,
+            "Selected_Features": 6
+        },
+        {
+            "Model": "AIS Neural Network",
+            "MAE": 2391.1840995043376,
+            "RMSE": 2971.844717942499,
+            "R2_Score": 0.1766878746812086,
+            "Accuracy_Percentage": 17.66878746812086,
+            "Selected_Features": 6
+        }
+    ],
+    "files_saved": {
+        "processed_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_processed_dataset.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_model_results.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_prediction_results.csv",
+        "selected_features_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_selected_features.csv",
+        "cluster_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_cluster_results.csv",
+        "fitness_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_fitness_history.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_neural_network_model.h5",
+        "random_forest_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_random_forest_model.pkl",
+        "scaler_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_scaler.pkl",
+        "cluster_scaler_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_cluster_scaler.pkl",
+        "encoder_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_label_encoders.pkl",
+        "kmeans_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_kmeans_model.pkl",
+        "feature_mask_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_feature_mask.pkl",
+        "fitness_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_fitness_graph.png",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_accuracy_graph.png",
+        "heatmap_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_comparison_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_prediction_graph.png",
+        "actual_vs_predicted_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_actual_vs_predicted_graph.png",
+        "nn_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_nn_loss_graph.png",
+        "cluster_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_cluster_graph.png",
+        "selected_features_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\ais_selected_features_graph.png"
+    }
+}
