@@ -1,0 +1,66 @@
+{
+    "project_name": "PSO Smart Agricultural Supply Chain Optimization System",
+    "author": "Sagnik Patra",
+    "algorithm": "Particle Swarm Optimization",
+    "dataset_shape": [
+        62,
+        21
+    ],
+    "total_markets": 62,
+    "market_column": "Market_Name",
+    "district_column": "District_Name",
+    "best_model": "PSO Random Forest",
+    "selected_features": [
+        "Market_Name_Encoded",
+        "District_Name_Encoded",
+        "Demand_Tons",
+        "Transport_Cost_Per_KM",
+        "Seasonal_Risk_Index",
+        "Demand_Supply_Gap"
+    ],
+    "best_fitness": 1771.4457405503395,
+    "model_results": [
+        {
+            "Model": "PSO Random Forest",
+            "MAE": 1458.0391629834137,
+            "RMSE": 1853.2743513215844,
+            "R2_Score": 0.6798218319155287,
+            "Accuracy_Percentage": 67.98218319155286,
+            "Selected_Features": 6
+        },
+        {
+            "Model": "PSO Neural Network",
+            "MAE": 2096.1493335288997,
+            "RMSE": 2925.692685338791,
+            "R2_Score": 0.20206099165079405,
+            "Accuracy_Percentage": 20.206099165079404,
+            "Selected_Features": 6
+        }
+    ],
+    "files_saved": {
+        "processed_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_processed_dataset.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_model_results.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_prediction_results.csv",
+        "selected_features_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_selected_features.csv",
+        "cluster_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_cluster_results.csv",
+        "fitness_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_fitness_history.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_neural_network_model.h5",
+        "keras_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_neural_network_model.keras",
+        "random_forest_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_random_forest_model.pkl",
+        "scaler_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_scaler.pkl",
+        "cluster_scaler_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_cluster_scaler.pkl",
+        "encoder_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_label_encoders.pkl",
+        "kmeans_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_kmeans_model.pkl",
+        "feature_mask_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_feature_mask.pkl",
+        "fitness_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_fitness_graph.png",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_accuracy_graph.png",
+        "heatmap_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_comparison_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_prediction_graph.png",
+        "actual_vs_predicted_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_actual_vs_predicted_graph.png",
+        "nn_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_nn_loss_graph.png",
+        "cluster_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_cluster_graph.png",
+        "selected_features_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Agricultural Supply Chain Optimization System\\pso_selected_features_graph.png"
+    }
+}

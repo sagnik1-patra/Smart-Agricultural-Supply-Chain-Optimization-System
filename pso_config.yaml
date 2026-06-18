@@ -1,0 +1,86 @@
+project_name: PSO Smart Agricultural Supply Chain Optimization System
+author: Sagnik Patra
+algorithm: Particle Swarm Optimization
+input_file: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+  System\megambmarketname_n.xls
+output_directory: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+  System
+prefix: pso_
+target_column: Estimated_Logistics_Cost
+all_features:
+- Market_Name_Encoded
+- District_Name_Encoded
+- Latitude
+- Longitude
+- Demand_Tons
+- Supply_Tons
+- Storage_Capacity_Tons
+- Transport_Cost_Per_KM
+- Road_Quality_Index
+- Seasonal_Risk_Index
+- Demand_Supply_Gap
+- Market_Load_Index
+selected_features:
+- Market_Name_Encoded
+- District_Name_Encoded
+- Demand_Tons
+- Transport_Cost_Per_KM
+- Seasonal_Risk_Index
+- Demand_Supply_Gap
+best_model: PSO Random Forest
+pso_parameters:
+  n_particles: 25
+  iterations: 30
+  inertia_weight: 0.7
+  cognitive_coeff: 1.5
+  social_coeff: 1.5
+  best_fitness: 1771.4457405503395
+generated_files:
+  processed_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_processed_dataset.csv
+  result_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_model_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_prediction_results.csv
+  selected_features_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain
+    Optimization System\pso_selected_features.csv
+  cluster_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_cluster_results.csv
+  fitness_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_fitness_history.csv
+  h5_model: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_neural_network_model.h5
+  keras_model: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_neural_network_model.keras
+  random_forest_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_random_forest_model.pkl
+  scaler_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_scaler.pkl
+  cluster_scaler_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_cluster_scaler.pkl
+  encoder_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_label_encoders.pkl
+  kmeans_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_kmeans_model.pkl
+  feature_mask_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_feature_mask.pkl
+  fitness_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_fitness_graph.png
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_accuracy_graph.png
+  heatmap_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_heatmap.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_comparison_graph.png
+  result_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_result_graph.png
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_prediction_graph.png
+  actual_vs_predicted_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply
+    Chain Optimization System\pso_actual_vs_predicted_graph.png
+  nn_loss_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_nn_loss_graph.png
+  cluster_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\pso_cluster_graph.png
+  selected_features_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain
+    Optimization System\pso_selected_features_graph.png

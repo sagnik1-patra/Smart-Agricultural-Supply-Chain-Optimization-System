@@ -1,0 +1,82 @@
+project_name: CSA Smart Agricultural Supply Chain Optimization System
+author: Sagnik Patra
+algorithm: Cuckoo Search Algorithm
+input_file: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+  System\megambmarketname_n.xls
+output_directory: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+  System
+prefix: csa_
+target_column: Estimated_Logistics_Cost
+all_features:
+- Market_Name_Encoded
+- District_Name_Encoded
+- Latitude
+- Longitude
+- Demand_Tons
+- Supply_Tons
+- Storage_Capacity_Tons
+- Transport_Cost_Per_KM
+- Road_Quality_Index
+- Seasonal_Risk_Index
+- Demand_Supply_Gap
+- Market_Load_Index
+selected_features:
+- Market_Name_Encoded
+- Demand_Tons
+- Transport_Cost_Per_KM
+- Demand_Supply_Gap
+best_model: CSA Random Forest
+csa_parameters:
+  n_nests: 20
+  generations: 30
+  discovery_rate: 0.25
+  best_fitness: 1867.6979422135212
+generated_files:
+  processed_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_processed_dataset.csv
+  result_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_model_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_prediction_results.csv
+  selected_features_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain
+    Optimization System\csa_selected_features.csv
+  cluster_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_cluster_results.csv
+  fitness_csv: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_fitness_history.csv
+  h5_model: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_neural_network_model.h5
+  keras_model: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_neural_network_model.keras
+  random_forest_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_random_forest_model.pkl
+  scaler_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_scaler.pkl
+  cluster_scaler_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_cluster_scaler.pkl
+  encoder_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_label_encoders.pkl
+  kmeans_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_kmeans_model.pkl
+  feature_mask_pkl: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_feature_mask.pkl
+  fitness_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_fitness_graph.png
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_accuracy_graph.png
+  heatmap_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_heatmap.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_comparison_graph.png
+  result_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_result_graph.png
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_prediction_graph.png
+  actual_vs_predicted_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply
+    Chain Optimization System\csa_actual_vs_predicted_graph.png
+  nn_loss_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_nn_loss_graph.png
+  cluster_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain Optimization
+    System\csa_cluster_graph.png
+  selected_features_graph: C:\Users\NXTWAVE\Downloads\Smart Agricultural Supply Chain
+    Optimization System\csa_selected_features_graph.png

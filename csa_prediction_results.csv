@@ -1,0 +1,63 @@
+Market_Name,District_Name,Demand_Tons,Supply_Tons,Estimated_Logistics_Cost,CSA_Predicted_Logistics_Cost,CSA_Market_Rank,CSA_Cluster_Label
+Rongjeng,East Garo Hills,426,440,1153.9282309750197,5206.244347346807,36,Low Priority Market
+Adokgiri,East Garo Hills,332,294,1801.0389952283963,1854.1404384268847,58,Medium Priority Market
+Kharkutta,East Garo Hills,495,333,9434.484247547283,8271.357970719577,20,Low Priority Market
+Bajengdoba,East Garo Hills,170,319,6570.409355001933,7118.160526002703,27,High Priority Market
+Mendipathar,East Garo Hills,165,364,9990.922120217067,10429.115797848595,11,High Priority Market
+Rongsak,East Garo Hills,282,411,5281.909432586665,4721.74154856272,39,High Priority Market
+Samanda,East Garo Hills,308,137,6982.613548355791,6500.543185446308,29,High Priority Market
+Williamnagar,East Garo Hills,408,237,6709.540332145062,6084.044046145483,30,High Priority Market
+Songsak,East Garo Hills,247,509,6825.500179721161,7686.050421144346,25,Medium Priority Market
+Laitlyngkot,East Khasi Hills,460,434,1636.8005322072327,2468.2157326684683,54,Low Priority Market
+Mawngap,East Khasi Hills,186,279,2748.447992132779,2701.444264329017,50,High Priority Market
+Sohiong,East Khasi Hills,367,183,3440.604233107442,4421.097725408367,43,High Priority Market
+Mawryngkneng,East Khasi Hills,214,136,3772.907361217023,4673.546014966319,40,High Priority Market
+Smit,East Khasi Hills,274,240,1101.8289372632662,1383.7055467458247,60,High Priority Market
+Mawsynram,East Khasi Hills,356,163,11698.740330236462,10159.041278190538,12,Low Priority Market
+Tyrsad,East Khasi Hills,283,226,3475.9715279825787,5092.2611144317,37,High Priority Market
+Iewduh(Shillong),East Khasi Hills,221,365,8706.577259617558,7916.8469440750205,22,Medium Priority Market
+Mawiong Regulated Market,East Khasi Hills,201,503,10089.083875733084,9931.05397733258,13,Medium Priority Market
+Pynursla,East Khasi Hills,364,388,420.3919909883988,1094.9238373326748,62,Medium Priority Market
+Shella,East Khasi Hills,423,298,7074.148790126663,6811.272944354168,28,Low Priority Market
+Dawki,Jaintia Hills,209,187,671.3911928777159,1341.4335484888275,61,High Priority Market
+Khliehriat,Jaintia Hills,145,291,8486.749816410975,8587.378478141241,18,High Priority Market
+Umkiang,Jaintia Hills,282,482,11649.119306681003,11422.105213350806,6,High Priority Market
+Raliang,Jaintia Hills,229,459,12790.931134178656,12048.889236306457,5,Low Priority Market
+Shangpung,Jaintia Hills,162,442,7942.44382503018,9022.998932494162,16,High Priority Market
+Jowai,Jaintia Hills,367,385,643.832949760542,1686.8789247836478,59,Medium Priority Market
+Khanduli,Jaintia Hills,491,490,558.7249773016252,2072.968664511592,56,Low Priority Market
+Nartiang,Jaintia Hills,101,186,2360.568861214557,2598.0778457195147,52,High Priority Market
+Wahiajer,Jaintia Hills,317,187,3499.495824190221,3785.0512476763206,48,Medium Priority Market
+Jirang,Ri-Bhoi,344,391,2056.9255123053786,2632.3768755711876,51,High Priority Market
+Patharkhmah,Ri-Bhoi,435,238,11300.385267351854,9850.277056493853,14,Low Priority Market
+20th Mile,Ri-Bhoi,436,347,4614.94534630496,4545.911478711554,41,Low Priority Market
+Byrnihat,Ri-Bhoi,162,528,15263.200949148648,13408.76173942114,2,Medium Priority Market
+Nongpoh,Ri-Bhoi,150,456,6481.470663959114,7801.809798343968,24,Medium Priority Market
+Umden,Ri-Bhoi,162,463,13294.494192874174,12453.335726962252,4,Medium Priority Market
+Umroi,Ri-Bhoi,489,167,19748.276930868386,15888.58621948266,1,Low Priority Market
+Umsning,Ri-Bhoi,130,78,1141.5485031911367,1859.4787605778974,57,Medium Priority Market
+Emangiri,South Garo Hills,236,377,5392.93183426645,5849.010302955276,34,High Priority Market
+Sibbari,South Garo Hills,162,399,13392.891883972277,12789.044870150563,3,Medium Priority Market
+Chokpot,South Garo Hills,51,168,6170.504829567513,5883.513177356848,33,Medium Priority Market
+Maheshkhola,South Garo Hills,179,306,6585.321062151494,5964.801376213449,32,High Priority Market
+Ronggara,South Garo Hills,269,515,11732.001373156232,11320.692930086425,7,Low Priority Market
+Ampati,West Garo Hills,103,480,11967.306766920146,11268.14584851388,8,Medium Priority Market
+Dadenggiri,West Garo Hills,392,512,3850.1140277382747,4037.4864109998452,46,Medium Priority Market
+Romagal,West Garo Hills,273,473,10534.302403555683,10545.523325332704,10,Low Priority Market
+Dalu,West Garo Hills,274,190,5025.9414170789105,4897.214936994037,38,Low Priority Market
+Purakhasia,West Garo Hills,434,454,1738.8148126325873,2332.1173913838825,55,Low Priority Market
+Rongram,West Garo Hills,452,517,3962.0926537102787,4221.80085091545,44,Low Priority Market
+Tura,West Garo Hills,175,337,6584.400036807453,7589.5358022909595,26,Medium Priority Market
+Garobadha Regulated Market,West Garo Hills,179,138,1997.2734482772248,2515.342821692122,53,High Priority Market
+Raksamgiri,West Garo Hills,102,302,10161.804416534003,11190.503806495753,9,High Priority Market
+Tikrikilla,West Garo Hills,221,291,3781.8185583764334,3795.3189246372817,47,Low Priority Market
+Kalaichar,West Garo Hills,267,183,4209.145836471374,4535.6658904920305,42,High Priority Market
+Mahendraganj,West Garo Hills,209,385,9498.618996079615,9000.799566724623,17,High Priority Market
+Kynshi,West Khasi Hills,247,151,5489.686420892574,5619.616861962677,35,High Priority Market
+Mairang,West Khasi Hills,465,544,3004.898068541335,2993.9785500607986,49,Low Priority Market
+Mawkyrwat,West Khasi Hills,296,539,7971.630077913591,9491.987916184606,15,Medium Priority Market
+Riangdo,West Khasi Hills,373,99,5146.614421772755,8432.52842612121,19,High Priority Market
+Shallang,West Khasi Hills,488,408,3871.797231565461,4119.505798701182,45,Low Priority Market
+Nongstoin,West Khasi Hills,252,41,3551.1465093700044,6024.317515643362,31,High Priority Market
+Rambrai,West Khasi Hills,233,424,7034.835605288063,8099.861223046468,21,Medium Priority Market
+Balat,West Khasi Hills,172,343,7368.045252886883,7820.107354188033,23,Medium Priority Market
